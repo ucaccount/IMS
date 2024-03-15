@@ -1,0 +1,16 @@
+ CORE JAVA - J2SE  
+ J2EE - Oracle + MySQL - SQL + PLSQL , MongoDB, JDBC, HTML, CSS, JAVA SCRIPT, BOOTSTRAP, SERVLETS , JSP , AJAX, 
+      - PROJECT WEB, SOCKET PROGRAMMING, RMI.
+
+
+ HIBERNATE - ADV TO JDBC, SPRING - REPLACEMENT SERVLET & JSP + GLOBAL CLASS , SPRING BOOT - ADV TO SPRING. 
+            SPRING - SPRING CORE + SPRING MVC
+
+create table person
+(
+   id int(5) primary key auto_increment,
+   name varchar(20),
+   photo longblob
+);
+
+SELECT * FROM person p;

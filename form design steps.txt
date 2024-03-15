@@ -1,0 +1,21 @@
+
+   for design any form - 
+
+    1st - we need to design database - table design karo sabse pahle.
+            Sales Form - sales table design karo -
+             create table tblSales 
+             ( 
+               id int(4) primary key auto_increment, 
+               prid int(4),
+               prName varchar(30),
+               prdesc varchar(50),
+               qty int(4),
+               price decimal(7,2),
+               custDetails varchar(100),
+               saledate datetime
+             );
+
+    2nd - form design - without database & with database. 
+         if without database - design the form. 
+         if with database - 1st design database tables & insert dummy records in that table. 
+          & form design the form. 

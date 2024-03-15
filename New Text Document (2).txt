@@ -1,0 +1,17 @@
+create database atm;
+create table tbldetail
+(
+  atmnum varchar(16) primary key,
+  name varchar(25),
+  address varchar(250),
+  bankname varchar(250),
+  ifsc varchar(11),
+  balance int,
+  cardtype varchar(10)
+);
+insert into tbldetail value('6070979362321810','Ashish Patel', 'Varanshi', 'Punjab National Bank', 'pnb01234567', 800000, 'Rupay');
+insert into tbldetail value('5070978162321000','Aashish', 'Ghaziabad', 'Punjab National Bank', 'pnb97936232', 800000, 'Master Card');
+insert into tbldetail value('4070978862321999','Shivam', 'Ghaziabad', 'Punjab National Bank', 'pnb97931810', 800000, 'Visa');
+
+ALTER TABLE tbldetail
+ADD pin varchar(6);
